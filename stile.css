@@ -1,0 +1,24 @@
+body { 
+    background-color: #f8f9fa; /* Colore di sfondo grigio chiarissimo di Bootstrap */
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Una classe personalizzata per distanziare le lettere nei badge */
+.tracking-wide {
+    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+}
+
+/* Modifica agli elementi della lista delle traduzioni per renderli più puliti */
+.list-group-item {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.1rem;
+    border-color: #e9ecef;
+}
+
+/* Rimuove il bordo inferiore dall'ultimo elemento della lista */
+.list-group-item:last-child {
+    border-bottom: none;
+}
