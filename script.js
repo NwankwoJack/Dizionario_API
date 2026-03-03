@@ -1,5 +1,5 @@
 // ⚠️ INSERISCI QUI LA TUA API KEY DI GOOGLE AI STUDIO
-const API_KEY = 'AIzaSyDAL3H_sETJF56SqMH1mW5eWV2CzxhnRm4';
+const API_KEY = 'AIzaSyCaRiv_-Z1r326kRRkTn-8qghZfRXrZAA0';
 
 function gestisciInvio(e) {
     if (e.key === 'Enter') cerca();
